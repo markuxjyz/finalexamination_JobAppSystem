@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ADE1FB; /* Light blue */
+    color: #01082D; /* Deep blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centering and container styling */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 8, 45, 0.2); /* Adjusted for palette */
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #266CA9; /* Medium blue */
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #0F2573; /* Darker medium blue */
+}
+
+/* Form inputs and labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #041D56; /* Slightly darker tone */
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #266CA9; /* Medium blue */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #0F2573; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #041D56; /* Slightly darker blue */
+}
+
+/* Error message */
+p[style="color: red;"] {
+    color: #fb0019; /* Accent orange */
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Link styling */
+p a {
+    color: #0F2573; /* Darker blue */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 8, 45, 0.2); /* Adjusted for palette */
+    width: 100%;
+    max-width: 400px;
+}
